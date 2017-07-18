@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { IntlMobileComponent } from './intl-mobile/intl-mobile.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    IntlMobileComponent
   ],
   imports: [
     BrowserModule
